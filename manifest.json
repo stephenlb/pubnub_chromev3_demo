@@ -2,7 +2,11 @@
     "name"             : "PubNub test",
     "version"          : "1.0",
     "manifest_version" : 3,
-    "host_permissions": ["https://ps.pndsn.com/*"],
+    "host_permissions" : ["https://ps.pndsn.com/*"],
+    "web_accessible_resources": [{
+      "resources": ["scripts/*"],
+       "matches": []
+    }],
     "background": {
         "service_worker": "background.js",
         "type": "module"

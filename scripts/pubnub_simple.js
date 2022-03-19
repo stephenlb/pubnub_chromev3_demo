@@ -1,4 +1,4 @@
-const PubNub = (setup) => {
+export const PubNub = (setup) => {
     for (let key of Object.keys(setup)) PubNub[key] = setup[key];
     return PubNub;
 };

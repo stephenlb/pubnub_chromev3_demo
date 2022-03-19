@@ -1,4 +1,4 @@
-import '/scripts/pubnub_simple.js';
+import { PubNub } from './scripts/pubnub_simple.js';
 
 function messages(message) {
     console.log("message on channel", message.channel);
